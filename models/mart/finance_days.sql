@@ -1,6 +1,4 @@
-{{ config(
-    materialized = 'table' 
-) }}
+{{ config(materialized='table') }}
 
 WITH sub AS 
 (
@@ -21,5 +19,3 @@ SELECT * ,
     ROUND(total_daily_revenue/NULLIF(nb_transactions, 0), 2) AS average_daily_basket
 FROM sub
 ORDER by date_date DESC
-
- {{ config(materialized=...) }}
