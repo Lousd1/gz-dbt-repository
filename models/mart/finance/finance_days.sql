@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 WITH sub AS 
 (
     SELECT date_date,
