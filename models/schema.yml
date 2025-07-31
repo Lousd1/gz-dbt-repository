@@ -56,3 +56,47 @@ sources:
             description: Logistics cost incurred by Greenweez (carrier cost).
           - name: ship_cost
             description: Internal shipping cost for Greenweez operations.
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: campaign for adwords
+        columns:
+          - name: date_date
+          - name: paid_source
+          - name: campaign_key
+          - name: camPGN_name
+          - name: ads_cost
+          - name: impression
+          - name: click 
+      - name: bing
+        identifier: raw_gz_bing
+        description: campaign for bing
+        columns:
+          - name: date_date
+          - name: paid_source
+          - name: campaign_key
+          - name: camPGN_name
+          - name: ads_cost
+          - name: impression
+          - name: click 
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: campaign for criteo
+        columns:
+          - name: date_date
+          - name: paid_source
+          - name: campaign_key
+          - name: camPGN_name
+          - name: ads_cost
+          - name: impression
+          - name: click 
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: campaign for facebook
+        columns:
+          - name: date_date
+          - name: paid_source
+          - name: campaign_key
+          - name: camPGN_name
+          - name: ads_cost
+          - name: impression
+          - name: click 
